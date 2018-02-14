@@ -9,7 +9,7 @@
  * a function that starts the plugin.
  *
  * @since             0.0.1
- * @package           plugin_slug
+ * @package           task_management_system
  *
  * @wordpress-plugin
  * 
@@ -26,20 +26,20 @@
 // If this file is called directly, abort.
 if ( !defined( 'ABSPATH' ) ) exit();
 
-if ( !defined( 'PLUGIN_SLUG_PATH' ) ) {
+if ( !defined( 'TASK_MANAGEMENT_SYSTEM_PATH' ) ) {
 	/**
 	 * Path to the plugin directory.
 	 *
 	 * @since 0.0.1
 	 */
-	define( 'PLUGIN_SLUG_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
+	define( 'TASK_MANAGEMENT_SYSTEM_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 }
 
-if ( !defined( 'PLUGIN_SLUG_URL' ) ) {
+if ( !defined( 'TASK_MANAGEMENT_SYSTEM_URL' ) ) {
 	/**
 	 * URL to the plugin directory.
 	 *
 	 * @since 0.0.1
 	 */
-	define( 'PLUGIN_SLUG_URL', trailingslashit( plugin_dir_url(  __FILE__ ) ) );
+	define( 'TASK_MANAGEMENT_SYSTEM_URL', trailingslashit( plugin_dir_url(  __FILE__ ) ) );
 }
