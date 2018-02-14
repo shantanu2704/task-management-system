@@ -22,7 +22,7 @@ module.exports = function ( grunt ) {
 					'path/to/js/file/1',
 					'path/to/js/file/2',
 				],
-				dest: 'assets/js/plugin-slug.min.js',
+				dest: 'assets/js/task-management-system.min.js',
 			}
 		},
 		uglify: {
@@ -34,7 +34,7 @@ module.exports = function ( grunt ) {
 					sourceMap: true,
 				},
 				files: {
-					'assets/js/plugin-slug.min.js': [ 'assets/js/plugin-slug.min.js' ]
+					'assets/js/task-management-system.min.js': [ 'assets/js/task-management-system.min.js' ]
 				}
 			}
 		},
