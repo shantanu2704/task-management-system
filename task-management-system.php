@@ -13,14 +13,14 @@
  *
  * @wordpress-plugin
  * 
- * Plugin Name: 
- * Description: 
- * Version: 
- * Author: 
- * Author URI:  
- * Text Domain: 
- * Domain Path: 
- * License: 
+ * Plugin Name: Task Management System
+ * Description: Custom task management system 
+ * Version: 0.0.1
+ * Author: Sheneille Patil, Shantanu Desai
+ * Author URI: https://profiles.wordpress.org/sheneillepatil, https://profiles.wordpress.org/wpshades
+ * Text Domain: task-management-system
+ * Domain Path: /languages
+ * License: GPL2
  */
 
 // If this file is called directly, abort.
