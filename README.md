@@ -1,9 +1,8 @@
 <img src='https://github.com/shantanu2704/task-management-system/raw/master/org-assets/banner-772x250.png'/>
 
 # Plugin Name #
-**Contributors:** [(this should be a list of wordpress.org userid's)](https://profiles.wordpress.org/(this should be a list of wordpress.org userid's))  
-**Donate link:** http://example.com/  
-**Tags:** comments, spam  
+**Contributors:** [ sheneillepatil, wpshades](https://profiles.wordpress.org/sheneillepatil, https://profiles.wordpress.org/wpshades)  
+**Tags:** task  
 **Requires at least:** 4.6  
 **Tested up to:** 4.7  
 **Stable tag:** 4.3  

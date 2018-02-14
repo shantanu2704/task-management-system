@@ -43,3 +43,21 @@ if ( !defined( 'TASK_MANAGEMENT_SYSTEM_URL' ) ) {
 	 */
 	define( 'TASK_MANAGEMENT_SYSTEM_URL', trailingslashit( plugin_dir_url(  __FILE__ ) ) );
 }
+
+function register_custom_post_type() {
+	register_post_type( 'tms_task', array(
+		'labels'		 => array(
+			'name'		=> __( 'Tasks' ),
+			'singular_name'	=> __( 'Task' ),
+			'add_new_item'	=> __( 'Add New Task' ),
+			'edit_item'		=> __( 'Edit Task' ),
+		),
+		'public'		 => true,
+		'has_archive'	 => true,
+		'capability_type'	=> __( 'task', 'tasks' )
+
+		)
+	);
+}
+
+add_action( 'init', 'register_custom_post_type' );
