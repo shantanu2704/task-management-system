@@ -6,9 +6,6 @@ Contains utilities and configuration for utilities.
 
 ## Usage
  
- 1. Find `PLUGIN_SLUG` and replace with `{PLUGIN_SLUG}` for constants
- 1. Find `Plugin Name` and replace with `{Plugin Name}` for plugin header and Readme.txt
- 1. Start coding
 
 ## Utilities
 
@@ -52,5 +49,3 @@ Releases a new version on GitHub and WP.org.
  
  ## WP.org assets
  Transparent placeholder images for icons, banners and screenshots.
-
-`
