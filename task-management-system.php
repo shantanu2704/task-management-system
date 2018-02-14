@@ -26,22 +26,22 @@
 // If this file is called directly, abort.
 if ( !defined( 'ABSPATH' ) ) exit();
 
-if ( !defined( 'TASK_MANAGEMENT_SYSTEM_PATH' ) ) {
+if ( !defined( 'TMS_PATH' ) ) {
 	/**
 	 * Path to the plugin directory.
 	 *
 	 * @since 0.0.1
 	 */
-	define( 'TASK_MANAGEMENT_SYSTEM_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
+	define( 'TMS_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 }
 
-if ( !defined( 'TASK_MANAGEMENT_SYSTEM_URL' ) ) {
+if ( !defined( 'TMS_URL' ) ) {
 	/**
 	 * URL to the plugin directory.
 	 *
 	 * @since 0.0.1
 	 */
-	define( 'TASK_MANAGEMENT_SYSTEM_URL', trailingslashit( plugin_dir_url(  __FILE__ ) ) );
+	define( 'TMS_URL', trailingslashit( plugin_dir_url(  __FILE__ ) ) );
 }
 
 function register_custom_post_type() {
@@ -61,3 +61,11 @@ function register_custom_post_type() {
 }
 
 add_action( 'init', 'register_custom_post_type' );
+
+/**
+ * The core plugin class
+ */
+require_once TSV_PATH . 'includes/class-task-management-system.php';
+
+$tsv = new TMS_Task();
+$tsv->init();
