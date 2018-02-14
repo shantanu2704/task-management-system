@@ -1,16 +1,16 @@
 {
-  "name": "plugin-slug",
+  "name": "task-management-system",
   "version": "x.x.x",
-  "main": "plugin-slug",
+  "main": "task-management-system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/plugin-slug"
+    "url": "https://github.com/username/task-management-system"
   },
   "keywords": [
     "wordpress"
   ],
   "bugs": {
-    "url": "https://github.com/username/plugin-slug/issues"
+    "url": "https://github.com/username/task-management-system/issues"
   },
   "author": "Bruce Wayne",
   "license": "GPL-2.0",
